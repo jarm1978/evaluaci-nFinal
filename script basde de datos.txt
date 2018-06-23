@@ -1,0 +1,10 @@
+create database hospital;
+use hospital;
+create table Empleado(
+id int primary key Auto_increment,
+noDocumento int,
+tipoDocumento varchar(25),
+nombre varchar (25),
+sueldo double
+);
+SELECT * FROM Empleado;
